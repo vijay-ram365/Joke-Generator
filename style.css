@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #bcc4e0be;
+  font-size: 1.5rem;
+  font-family: "Comic Neue", cursive;
+}
+
+h1 {
+  color: rgb(24, 17, 78);
+  background-color: rgba(0, 255, 255, 0.171);
+  padding: 1.5rem;
+  margin: 0;
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 700;
+  border-bottom: 2px dotted rgba(0, 47, 255, 0.39);
+}
+
+/* this is the box where the actual text comes into  */
+#joke-text {
+  width: 700px;
+  max-width: 85%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* this is the button design */
+.btn-design {
+  transition-duration: 3ms;
+  background-color: rgba(135, 135, 182, 0.637);
+  border: none;
+  margin: 2rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: large;
+}
+
+#get-joke:hover,
+#get-joke:active {
+  background-color: rgba(86, 86, 165, 0.637);
+  color: rgb(19, 85, 68);
+  cursor: pointer;
+}
