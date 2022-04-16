@@ -1,22 +1,22 @@
 body {
   margin: 0;
   text-align: center;
-  background-color: #bcc4e0be;
   font-size: 1.5rem;
   font-family: "Comic Neue", cursive;
+  background-color: #f9f9f9;
+
 }
 
-h1 {
-  color: rgb(24, 17, 78);
-  background-color: rgba(0, 255, 255, 0.171);
-  padding: 1.5rem;
-  margin: 0;
+.container {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 50%;
+  margin: 1em auto;
+  background-color: #fffff2;
+
 }
 
-p {
-  font-size: 1.6rem;
-  font-weight: 700;
-  border-bottom: 2px dotted rgba(0, 47, 255, 0.39);
+h1{
+  padding-top: 1em;
 }
 
 /* this is the box where the actual text comes into  */
